@@ -1,0 +1,19 @@
+{
+  "name": "librarycrud",
+  "version": "0.0.1",
+  "description": "ДЗ8 по базам данных",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js listen"
+  },
+  "author": "Костя Борисов",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "pg": "8.2.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
